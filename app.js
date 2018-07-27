@@ -5,7 +5,7 @@ var logger = require('morgan');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
-mongoose.connect('mongodb://localhost/kitap', { useMongoClient: true, promiseLibrary: require('bluebird') })
+mongoose.connect('mongodb://ktap:kitap01@ds257551.mlab.com:57551/kitap', { useMongoClient: true, promiseLibrary: require('bluebird') })
   .then(() =>  console.log('connection succesful'))
   .catch((err) => console.error(err));
 
