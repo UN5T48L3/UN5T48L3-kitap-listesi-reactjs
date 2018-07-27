@@ -1,0 +1,45 @@
+{
+  "name": "kitap-listesi",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.12.4",
+    "morgan": "^1.9.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "serve-favicon": "^2.4.5"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "description": "This source code is part of [Building CRUD Web Application using MERN Stack](https://www.djamware.com/post/59faec0a80aca7739224ee1f/building-crud-web-application-using-mern-stack) tutorial.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UN5T48L3/kitap-listesi-reactjs.git"
+  },
+  "keywords": [
+    "kitap",
+    "liste",
+    "react",
+    "javascript"
+  ],
+  "author": "UN5T48L3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UN5T48L3/kitap-listesi-reactjs/issues"
+  },
+  "homepage": "https://github.com/UN5T48L3/kitap-listesi-reactjs#readme"
+}
